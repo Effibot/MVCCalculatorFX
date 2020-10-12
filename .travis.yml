@@ -1,6 +1,6 @@
 before_install:
    - sudo apt-get install ant-optional
-   
+
 language: java
 jdk: 
     -openjdk8
@@ -9,6 +9,7 @@ addons:
     apt:
         packages:
             - openjfx
+            - junit
     sonarcloud:
         organization: effibot
         token: 3c0c952a3837052b144e489f11f102a1412cfd51
