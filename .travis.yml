@@ -8,7 +8,8 @@ addons:
       - openjfx
   sonarcloud:
     organization: effibot
-    token: cd7144d9b74845e2e0af9341c4694b77106aa903
+    token: 3c0c952a3837052b144e489f11f102a1412cfd51
+    
 script: 
     - ant build 
     - sonar-scanner
