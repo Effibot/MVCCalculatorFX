@@ -1,14 +1,14 @@
 language: java
-jdk:
-    - openjdk8
+jdk: 
+    -openjdk8
 
 addons:
     apt:
-    packages:
-      - openjfx
-  sonarcloud:
-    organization: "effibot"
-    token: 3c0c952a3837052b144e489f11f102a1412cfd51
+        packages:
+            - openjfx
+    sonarcloud:
+        organization: effibot
+        token: 3c0c952a3837052b144e489f11f102a1412cfd51
     
 script: 
     - ant build 
